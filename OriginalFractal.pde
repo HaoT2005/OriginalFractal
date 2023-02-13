@@ -10,7 +10,7 @@ public void draw()
 }
 public void myFractal(int x, int y, int siz){
   fill(75,0,130);
-  ellipse(x, y, siz);
+  ellipse(x, y, siz,siz);
   if(siz > 10){
     myFractal(x,y,siz-67);
   }
